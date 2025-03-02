@@ -50,7 +50,7 @@ for episode in range(n_iter):
 3. **Signal generation**
    - Bullish/bearish signals derived from pattern combinations
    - RL-optimized entry/exit filters
-4. **Backtesting & risk management**:
+4. **Backtesting & risk management**
    - Monte Carlo simulations for robustness testing
    - Drawdown and VaR analysis
 
