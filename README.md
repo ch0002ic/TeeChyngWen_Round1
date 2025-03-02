@@ -23,14 +23,14 @@ Financial markets demand strategies that evolve with shifting conditions. This p
    - **RL framework**: Treats hyperparameter tuning as a **multi-armed bandit problem**, where the agent explores parameters (ATR multiplier, risk fraction) and exploits the best-performing combinations.
    - **Reward function**: Maximizes a composite score of Sharpe ratio (40%), total return (30%), drawdown (20%), and win rate (10%).
 ### 3. **Deep learning integration**
-   - **LSTM-based market regime classifier** (Future Work): Analyzes sequences of returns to predict regime shifts.
-   - **Transformer for sentiment integration** (Future Work): Processes news headlines to augment trading signals.
+   - **LSTM-based market regime classifier** (future work): Analyzes sequences of returns to predict regime shifts.
+   - **Transformer for sentiment integration** (future work): Processes news headlines to augment trading signals.
 ### 4. **Advanced backtesting engine**
    - Simulates realistic trading with slippage-free execution, dynamic stop-loss (1.5× ATR), and profit targets (2× risk).
 
 ---
 
-## 🛠 Technical architecture  
+## 🛠 Technical architecture
 ```python
 # Simplified RL optimization loop (pseudocode)
 for episode in range(n_iter):
