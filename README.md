@@ -1,6 +1,7 @@
 # Adaptive RL-enhanced candlestick trading strategy for dynamic markets
 
 **Team TeeChyngWen**
+
 *Innovating at the intersection of computational finance and deep learning*
 
 ---
